@@ -1,0 +1,73 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  html {
+    height: 100%;
+  }
+body {
+   
+
+    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 100%;
+
+    margin-left: -100px;
+    margin-right: -100px;
+
+    text-align: center;
+    background-image: url("/static/images/1.gif");
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat round;
+    background-size: 100%;
+
+
+}
+
+    .glass_plane {
+        backdrop-filter: blur(20px);
+      
+      height: 5000px;
+
+      background-color: rgba(209, 197, 188, 0.801);
+      
+      }
+
+      
+
+
+  
+
+.icon_section {
+    animation: fadeIn 2s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-left: -5%;
+}
+h1, h2{
+    font-size: xx-large;
+    color: black;
+  letter-spacing: 0.0925em;
+
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2{
+    animation: fadeIn 15s;
+
+}
+
+.icon {
+    width: 100px;;
+}
+
+
+
